@@ -7,7 +7,7 @@ import { spawn } from 'child_process'
 function execShellCommand(cmd: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const process = spawn(cmd, [], { shell: true })
-    let stdout = ""
+    let stdout = ''
     process.stdout.on('data', (data) => {
       console.log(data.toString());
       stdout += data.toString();
