@@ -4,5 +4,5 @@ author: 'Tomofumi Inoue'
 runs:
   using: 'node12'
   main: 'lib/main.js'
-icon: settings
-color: gray-dark
+icon: 'cast'
+color: 'purple'
