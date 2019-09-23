@@ -1,4 +1,4 @@
-name: 'Debugging🐞 with tmate'
+name: '🐞Debugging🐞 with tmate'
 description: 'Debug your GitHub Actions Environment'
 author: 'Tomofumi Inoue'
 runs:
